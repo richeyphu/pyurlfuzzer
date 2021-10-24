@@ -1,5 +1,5 @@
 # pyurlfuzzer
-**pyurlfuzzer** is a simple website directory scanner written in Python.
+**pyurlfuzzer** is a simple website directory scanner, written in Python.
 
 ## Usage
 ### Example
