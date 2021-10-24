@@ -1,4 +1,5 @@
 # pyurlfuzzer
+
 **pyurlfuzzer** is a simple website directory scanner, written in Python.
 
 ## Usage
@@ -28,3 +29,5 @@ Fuzzing : ███████████████████████�
 ## Notes
 - [`common.txt`](https://github.com/richeyphu/pyurlfuzzer/blob/main/src/common.txt) file courtesy of [SecLists](https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/common.txt)
 - For much w0w edition, please check out here : [LucusExpress](https://github.com/karinzaa/LucusExpress)
+
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
