@@ -22,5 +22,5 @@ Fuzzing : ███████████████████████�
 - [`requests`](https://pypi.org/project/requests/)
 
 ## Notes
-- "common.txt" file courtesy of [SecLists](https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/common.txt)
+- `common.txt` file courtesy of [SecLists](https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/common.txt)
 - For much w0w edition, please check out here : [LucusExpress](https://github.com/karinzaa/LucusExpress)
