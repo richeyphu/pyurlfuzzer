@@ -2,6 +2,10 @@
 **pyurlfuzzer** is a simple website directory scanner, written in Python.
 
 ## Usage
+### Runs
+```bash
+$ python pyurlfuzzer.py
+```
 ### Example
 ```ps1
 Input target : google.com
