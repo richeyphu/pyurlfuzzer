@@ -1,7 +1,8 @@
 # pyurlfuzzer
-A simple website directory scanner
+**pyurlfuzzer** is a simple website directory scanner written in Python.
 
 ## Usage
+### Example
 ```ps1
 Input target : google.com
 --------------------------------------------------
@@ -23,6 +24,8 @@ Fuzzing : ██ (3.15%)	path=/2013	status=200
 Fuzzing : ███ (6.51%)	path=/Recycled	status=200
 ...
 ```
+### Required Package
+- [`requests`](https://pypi.org/project/requests/)
 
 ## Notes
 - "common.txt" file courtesy of [SecLists](https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/common.txt)
