@@ -17,6 +17,9 @@ def run():
             ln = line.rstrip()
             req(ln)
             loading_bar(i + 1, l, ln)
+    print()
+    print('-' * 50)
+    print("Fuzzing Completed!")
 
 
 def loading_bar(n, l, ln):
