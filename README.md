@@ -10,7 +10,7 @@ $ python pyurlfuzzer.py
 ### Example
 ```ps1
 Input target : google.com
---------------------------------------------------
+----------------------------------------------------------------------
 Fuzzing : █ (1.85%)	path=/.well-known/resourcesync	status=200
 Fuzzing : █ (2.87%)	path=/2000	status=200
 Fuzzing : █ (2.89%)	path=/2001	status=200
@@ -22,6 +22,8 @@ Fuzzing : █ (2.93%)	path=/2003	status=200
 Fuzzing : ████████████████████████████████████████████████ (96.62%)	path=/wordpress	status=200
 Fuzzing : █████████████████████████████████████████████████ (98.38%)	path=/xfer	status=405
 Fuzzing : ██████████████████████████████████████████████████ (100.00%)	path=/~www
+----------------------------------------------------------------------
+Fuzzing Completed!
 ```
 ### Required Package
 - [`requests`](https://pypi.org/project/requests/)
