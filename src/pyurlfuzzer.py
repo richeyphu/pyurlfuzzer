@@ -18,7 +18,7 @@ def run():
             req(ln)
             loading_bar(i + 1, l, ln)
     print()
-    print('-' * 50)
+    print('-' * 70)
     print("Fuzzing Completed!")
 
 
@@ -37,5 +37,5 @@ def test_conn(tar):
 if __name__ == '__main__':
     target = input("Input target : ")
     test_conn(target)
-    print('-' * 50)
+    print('-' * 70)
     run()
