@@ -3,7 +3,7 @@ import requests
 
 
 def req(d):
-    r = requests.post("http://{}/{}".format(target, d))
+    r = requests.get("http://{}/{}".format(target, d))
     status = r.status_code
     if status != 404:
         print(f"\t{status=}")
@@ -28,7 +28,7 @@ def loading_bar(n, l, ln):
 
 def test_conn(tar):
     try:
-        requests.post("http://{}".format(tar))
+        requests.get("http://{}".format(tar))
     except Exception as e:
         print("ERROR: {}".format(e))
         exit()
