@@ -44,7 +44,8 @@ def main():
     target = input("Input target : ")
     test_conn(target)
     urls = getUrlList()
-    max_conn = int(input("Max requests per time : "))
+    max_conn = input("Max requests per time : ")
+    max_conn = int(max_conn) if max_conn.isnumeric() else 10
     div = int(len(urls) / max_conn)
     splited_urls = splitList(urls, div)
 
