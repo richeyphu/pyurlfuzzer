@@ -30,7 +30,7 @@ Fuzzing Completed!
 
 ### Asynchronus Version (Experimental)
 `pyurlfuzzer_async.py` uses [`httpx`](https://pypi.org/project/requests/) library to provide async support.
-You can input the number of requests per time.
+You can input the desired number of requests per time.
 > **Note:** The more requests per time, the faster fuzzing is. But please be careful, too many requests may get an error. *This feature is experimental. Use it at your own risk.*
 
 ## Notes
